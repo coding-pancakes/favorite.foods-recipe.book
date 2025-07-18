@@ -64,18 +64,29 @@
 
 /* Item Cards */
 .item-card {
-    padding: 55px 45px 55px 45px;
-    width: 500px;
+    padding: 35px 25px 35px 25px;
+    width: 850px;
     height: 350px;
     background-color: dimgray;
     box-shadow: 2px 2px 4px #4444;
-    border-radius: 65px;
-    display: inline-block;
-    justify-content: center;
+    border-radius: 45px;
+    display: flex;
+    align-items: center;
     margin: 0px 20px 20px 0px;
     h3 {
         margin: 20px;
     }
+}
+
+/* Card Content */
+.card-img img {
+    width: 350px;
+    display: inline-block;
+    margin-right: 40px;
+}
+.card-txt {
+    display: inline-block;
+    width: 350px;
 }
 
 /* Image Gallery */
@@ -92,9 +103,4 @@
 #images img {
     width: 350px;
     display: grid;
-}
-
-/* Card Images */
-.card-img img {
-    width: 250px;
 }
