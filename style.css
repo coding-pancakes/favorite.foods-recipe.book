@@ -101,9 +101,18 @@
     height: 360px;
 }
 
+.recipe-gallery-img:hover {
+    width: 450px;
+    height: 460px;
+}
+
 /* View Recipes (HOMEPAGE) */
 #images img {
     width: 350px;
     height: 360px;
     display: inline-block;
+}
+
+#view-recipes {
+    text-align: center;
 }
