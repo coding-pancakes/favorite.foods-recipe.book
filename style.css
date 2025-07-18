@@ -11,7 +11,7 @@
     h1 {
         text-align: center;
         font-size: 46px;
-        margin-top: 10px;
+        margin: 30px;
         color: #07004d;
     }
     h2 {
@@ -77,8 +77,8 @@
 
 /* Item Cards */
 .item-card {
-    padding: 35px 25px 35px 25px;
-    width: 850px;
+    padding: 35px 15px 35px 15px;
+    width: 800px;
     height: 350px;
     background-color: #2d82b7;
     box-shadow: 2px 2px 4px #4444;
@@ -97,6 +97,7 @@
     display: inline-block;
     margin-right: 40px;
     border-radius: 40px;
+    border: 6px solid #07004d;
 }
 .card-txt {
     display: inline-block;
@@ -109,8 +110,9 @@
 }
 
 /* Image Gallery */
-.recipe-image-gallery {
+#recipe-image-gallery {
     display: inline-block;
+    text-align: center;
 }
 
 .recipe-gallery-img {
@@ -132,4 +134,34 @@
 
 #view-recipes {
     text-align: center;
+}
+
+/* Media Query */
+@media screen and (max-width: 800px) {
+    .card-img img {
+        width: 150px;
+    }
+
+    .card-txt {
+        width: 150px;
+        h3 {
+            font-size: 20px;
+        }
+    }
+
+    .item-card {
+        padding: 15px 10px 15px 10px;
+        width: 370px;
+        height: 250px;
+        margin: 0px 15px 15px 0px;
+        h3 {
+            margin: 15px;
+        }
+    }
+
+    .button {
+        padding: 10px 15px 10px 15px;
+        margin: 10px;
+        font-size: 15px;
+    }
 }
