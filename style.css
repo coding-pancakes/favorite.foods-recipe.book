@@ -1,17 +1,21 @@
 * {
     margin: 0px;
     padding: 0px;
-    background-color: whitesmoke;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     a {
         text-decoration: none;
-        color: #525252;
+        color: #151515;
         margin-right: 10px;
         font-size: 25px;
     }
     h1 {
         text-align: center;
         font-size: 46px;
+        margin-top: 10px;
+    }
+    h2 {
+        text-align: center;
+        font-size: 32px;
         margin-top: 10px;
     }
 }
@@ -39,4 +43,29 @@
         font-size: 15px;
         margin-bottom: 15px;
     }
+}
+
+/* Buttons */
+.button {
+    background-color: darkgray;
+    padding: 15px 20px 15px 20px;
+    border-radius: 60px;
+    box-shadow: 4px 4px 6px #4444;
+}
+
+.button:hover {
+    box-shadow: inset 4px 4px 6px #4444;
+}
+
+/* Item Cards */
+.item-card {
+    padding: 55px 45px 55px 45px;
+    width: 500px;
+    height: 350px;
+    background-color: dimgray;
+    box-shadow: 2px 2px 4px #4444;
+    border-radius: 65px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 25px;
 }
