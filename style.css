@@ -84,7 +84,7 @@
     box-shadow: 2px 2px 4px #4444;
     border-radius: 45px;
     display: flex;
-    align-items: center;
+    justify-content: center;
     margin: 0px 20px 20px 0px;
     h3 {
         margin: 20px;
@@ -151,8 +151,8 @@
 
     .item-card {
         padding: 15px 10px 15px 10px;
-        width: 370px;
-        height: 250px;
+        width: 400px;
+        height: 200px;
         margin: 0px 15px 15px 0px;
         h3 {
             margin: 15px;
@@ -163,5 +163,9 @@
         padding: 10px 15px 10px 15px;
         margin: 10px;
         font-size: 15px;
+    }
+    
+    .nav a {
+        font-size: 20px;
     }
 }
