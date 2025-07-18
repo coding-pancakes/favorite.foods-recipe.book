@@ -93,12 +93,12 @@
 
 /* Image Gallery */
 .recipe-image-gallery {
-    display: flex;
+    display: inline-block;
 }
 
 .recipe-gallery-img {
     width: 350px;
-    display: flex;
+    height: 360px;
 }
 
 /* View Recipes (HOMEPAGE) */
