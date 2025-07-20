@@ -173,4 +173,12 @@
     .nav a {
         font-size: 20px;
     }
+
+    .card-img img {
+        width: 150px;
+        height: 145px;
+        margin-right: 20px;
+        border-radius: 20px;
+        border: 4px;
+    }
 }
