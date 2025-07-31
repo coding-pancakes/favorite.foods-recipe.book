@@ -12,7 +12,7 @@
         text-align: center;
         font-size: 46px;
         margin: 30px;
-        color: #07004d;
+        color: #060323;
     }
     h2 {
         text-align: center;
@@ -39,7 +39,7 @@
         margin: 5px 15px 5px 15px;
     }
     a:hover {
-        color: #42e2b8;
+        color: #72bce9;
     }
 }
 
@@ -47,7 +47,7 @@
     display: flex;
     flex-direction: column;
     text-align: center;
-    background-color: #07004d;
+    background-color: #060323;
     padding-top: 50px;
     padding-bottom: 50px;
     a {
@@ -55,13 +55,13 @@
         margin: 10px 40px 10px 40px;
     }
     a:hover {
-        color: #42e2b8;
+        color: #72bce9;
     }
 }
 
 /* Buttons */
 .button {
-    background-color: #07004d;
+    background-color: #060323;
     color: #eb8a90;
     padding: 15px 20px 15px 20px;
     border-radius: 60px;
@@ -70,7 +70,7 @@
 }
 
 .button:hover {
-    background-color: #07004d;
+    background-color: #060323;
     color: #f3dfbf;
     box-shadow: inset 4px 4px 6px #4444;
 }
@@ -102,14 +102,14 @@
     display: inline-block;
     margin-right: 40px;
     border-radius: 40px;
-    border: 6px solid #07004d;
+    border: 6px solid #060323;
 }
 .card-txt {
     display: inline-block;
     width: 350px;
     h3 {
         padding-bottom: 25px;
-        color: #07004d;
+        color: #060323;
         font-size: 32px;
     }
 }
@@ -123,15 +123,16 @@
 .recipe-gallery-img {
     width: 350px;
     height: 360px;
+    display: block;
 }
 
 .all-recipes-card {
     margin: 25px;
-    background-color: #07004d;
+    background-color: #060323;
     border-radius: 60px;
     width: 500px;
     height: 550px;
-    align-items: center;
+    text-align: center;
     color: #eb8a90;
 }
 
