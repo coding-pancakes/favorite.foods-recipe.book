@@ -116,8 +116,8 @@
 
 /* Image Gallery */
 #recipe-image-gallery {
-    display: inline-block;
-    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .recipe-gallery-img {
@@ -125,7 +125,15 @@
     height: 360px;
 }
 
-
+.all-recipes-card {
+    margin: 25px;
+    background-color: #07004d;
+    border-radius: 60px;
+    width: 500px;
+    height: 550px;
+    align-items: center;
+    color: #eb8a90;
+}
 
 /* View Recipes (HOMEPAGE) */
 #images img {
